@@ -3,6 +3,7 @@ v0.4
 美团买菜果园任务脚本,支持qx,loon,shadowrocket,surge,nodejs
 抓cookie:进果园点浇水,在抓包记录里搜water,在请求头里找属性t: thKFxxxxxxxxxxxxxxxxxxx_w,复制冒号后面的值
 每天八点执行一次
+
 */
 
 
