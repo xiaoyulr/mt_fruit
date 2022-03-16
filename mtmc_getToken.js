@@ -3,7 +3,7 @@
 美菜获取token
 重写进果园浇一次水: 
 
-^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTreeV2?treeId url script-request-header mtmc_getToken.js
+^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree url script-request-header mtmc_getToken.js
 
 触发类型:request-headers
 
@@ -29,7 +29,7 @@ const $ = new API("mtmc_getToken");
         console.log("===========meituan.com位置===============")
         console.log(url.indexOf('meituan.com'))
 
-        if (((url.indexOf('waterTreeV2?treeId=') > -1) && (url.indexOf('meituan.com') > -1))) {
+        if (url.indexOf('waterTree') > -1 && url.indexOf('meituan.com') > -1) {
             let tk = '';
             console.log(headers)
             console.log("===========t位置===============")
