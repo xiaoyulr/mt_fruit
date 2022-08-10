@@ -87,7 +87,7 @@
      if ($.farmInfo.farmUserPro) {
 
       await $.get({
-        url: 'http://106.13.233.51:8080/activeJdFruitCode?code=' + $.farmInfo.farmUserPro.shareCode
+        url: 'http://119.91.148.229:8080/activeJdFruitCode?code=' + $.farmInfo.farmUserPro.shareCode
       }, function (err, resp, data) {
         console.log('互助码状态:' + resp.body);
       })
@@ -1329,7 +1329,7 @@
  
  function readShareCode() {
    return new Promise(async resolve => {
-     $.get({url: `http://106.13.233.51:8080/queryJdFruitCode`, timeout: 10000}, (err, resp, data) => {
+     $.get({url: `http://119.91.148.229:8080/queryJdFruitCode`, timeout: 10000}, (err, resp, data) => {
        try {
          if (err) {
            console.log(JSON.stringify(err))
