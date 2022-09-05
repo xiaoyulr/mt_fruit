@@ -5,7 +5,7 @@
 
 ^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree url script-request-header mtmc_getToken.js
 
-触发类型:request-headers
+触发类型:script-request-body
 
 MITM:
 mall.meituan.com
