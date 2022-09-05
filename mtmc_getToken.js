@@ -3,9 +3,9 @@
 美菜获取token
 重写进果园浇一次水: 
 
-^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree url script-request-header mtmc_getToken.js
+^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree url script-request-headers mtmc_getToken.js
 
-触发类型:script-request-body
+触发类型:script-request-headers
 
 MITM:
 mall.meituan.com
